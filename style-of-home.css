@@ -1,0 +1,367 @@
+/* Entire body*/
+.container-fluid{
+    padding: 3% 10%;
+}
+
+/* Title section */
+#title{
+    background: rgba(255, 22, 81, 0.74);
+    padding-bottom: 7%;
+}
+.title-section{
+    font-family: "Montserrat", sans-serif;
+}
+#first-container-title{
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+#title img{
+    width: 60%;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 25%;
+}
+.mobile-image{
+
+}
+.title-section .btn {
+    margin: 2rem 0.75rem;
+
+}
+/* Navigation bar*/
+.navbar-brand{
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+.btn-dark:hover{
+    background-color: rgba(0,0,0,0.7);
+}
+
+
+
+
+/* Features */
+#features{
+    text-align: center;
+    margin:0  0 60px;
+    padding-top:120px ;
+    background-color: white;
+    position: relative;
+}
+#features h3{
+    font-size: 1.5rem;
+    font-family: Montserrat, sans-serif;
+    font-weight: 900;
+}
+#features p{
+    font-weight: lighter;
+    color: #8f8f8f;
+}
+#features i{
+    /*font-size: 4rem;*/
+    margin: 2rem 0 1rem;
+    color: #fc4874;
+}
+#features i:hover{
+    color: rgba(248, 131, 160, 0.74);
+}
+
+/* Carousel section - Testimonials*/
+.testimonials{
+    background:#fc4874 ;
+    text-align: center;
+    padding-bottom: 50px;
+    position: relative;
+}
+.testimonials h2{
+    padding: 50px 250px 20px ;
+    font-family: Montserrat,sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+.testimonials img{
+    width: 7rem;
+    border-radius: 3.5rem ;
+}
+
+/* press Image div*/
+.press-div{
+    padding-bottom:50px;
+    background-color: #fc4874;
+    text-align: center;
+    margin-bottom: 145px;
+    position: relative;
+}
+.press-image{
+    width: 10%;
+    margin: 0 40px;
+}
+
+/* Pricing */
+#pricing{
+    padding:50px 20px  0 ;
+    text-align: center;
+}
+#pricing .heading-division{
+    padding-bottom:35px ;
+}
+.pricing-card-para{
+    font-size: 0.8rem;
+}
+.pricing-header{
+    font-size: 1.7rem;
+    font-weight: 900;
+}
+.card-division{
+    padding: 0 50px;
+}
+.card{
+    margin-bottom:100px ;
+}
+#pricing .card-header{
+    background-color: #fc4874;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+#pricing .card-header {
+    font-size: 1.5rem;
+    margin: 0;
+}
+#pricing-free{
+    font-size: 1.7rem;
+}
+#pricing .btn{
+    border:1px rgba(0,0,0,0.3) solid;
+}
+#pricing .cost-btn{
+    background-color: #fc4874;
+    border:1px #fc4874 solid;
+}
+#pricing .cost-btn:hover{
+    background-color: #f90343;
+}
+
+
+/* cta */
+#cta{
+    background-color: #fc4874;
+    text-align: center;
+    padding: 100px 0 100px ;
+}
+#cta h3{
+    color: white;
+    size: 3.5rem;
+    font-weight: 900;
+}
+
+#cta .btn{
+    margin:2rem 1rem;
+}
+
+
+/* Footer*/
+#footer{
+    text-align: center;
+    padding: 20px;
+    margin-top:100px ;
+}
+.social-links{
+    padding-bottom: 20px;
+}
+#footer a{
+    margin: 1rem 1rem;
+    color:black;
+}
+
+
+/* Mobile-Design*/
+
+@media only screen and (max-width:900px) {
+
+
+    /* Title-mobile*/
+    #title{
+        text-align: left;
+    }
+    #first-container-title{
+        font-size: 1.5rem;
+    }
+    #title img{
+        width: 60%;
+        transform: rotate(0);
+        position: static;
+        text-align: center;
+    }
+    #title .mobile-image{
+        text-align: center;
+        padding: 20px 20px 0;
+    }
+    #title .download-buttons{
+        width: auto;
+        font-size: 0.3rem;
+    }
+    #title .btn{
+        font-size: small;
+        width: 120px;
+        padding:8px ;
+        margin: 10px 10px 10px 0;
+    }
+    .title-section .btn {
+        margin: 1rem 0.5rem;
+    }
+    /* Navigation bar*/
+    .navbar{
+        padding: 0 0 1rem;
+    }
+
+    .nav-item{
+        padding: 5px 0;
+    }
+
+    /* Feature section mobile */
+     #features{
+        margin:0  0 60px;
+        padding-top:60px ;
+    }
+     #features h3{
+        font-size: 1rem;
+    }
+     #features p{
+        font-size: 0.66rem;
+        font-weight: lighter;
+        color: #8f8f8f;
+    }
+     #features i{
+        font-size: 2rem;
+        margin: 1.3rem 0 0.66rem;
+        color: #fc4874;
+    }
+
+/*     Testimonials-mobile*/
+    .testimonials{
+        padding-bottom: 0;
+        height: 200px;
+    }
+    .testimonials h2{
+        padding: 50px 50px 0 ;
+        font-size: 1rem;
+    }
+    .testimonials img{
+        width: 2.3em;
+        border-radius: 1.5rem ;
+    }
+    #testimonials-id span{
+        width: 0.7rem;
+        bottom: 10px;
+    }
+
+    /* press Image-mobile div*/
+    .press-div{
+        padding-bottom:0;
+        margin-bottom: 40px;
+    }
+    .press-image{
+        width: 60px;
+        margin: 0 20px 30px;
+    }
+
+    /* Pricing */
+    #pricing{
+        padding:50px 35px  0 ;
+        margin-bottom: 50px;
+        text-align: center;
+        font-size: 0.66rem;
+    }
+    #pricing .heading-division{
+        padding-bottom:35px ;
+        font-size: 0.75rem;
+
+    }
+    .pricing-header{
+        font-size: 1.1rem;
+        font-weight: 900;
+    }
+    .card-division{
+        padding: 0 ;
+        margin: auto;
+        width: 70%;
+    }
+    .individual-cards{
+        padding: 0;
+        width: 90%;
+        margin: auto;
+    }
+    .card{
+        margin-bottom:30px;
+    }
+    #pricing-free{
+        font-size: 1.1rem;
+    }
+    #pricing .card-header{
+        font-size: 1rem;
+    }
+    #pricing .card-header h3{
+        font-size: 1rem;
+        margin: 0;
+    }
+    #pricing p{
+        margin-bottom: 0;
+    }
+    #pricing .btn{
+        margin-top: 10px;
+        font-size: 0.7rem;
+    }
+    #pricing .card-body{
+        padding: 10px;
+    }
+
+
+
+
+    /* cta */
+    #cta{
+        text-align: center;
+        padding: 60px 0 40px ;
+    }
+    #cta h3{
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+
+    #cta .btn{
+        font-size: small;
+        margin:1.2rem 0.66rem;
+    }
+
+
+    /* Footer*/
+    #footer{
+        text-align: center;
+        padding:0 0 230px;
+        margin-top:30px ;
+        margin-bottom: 10px;
+        font-size: 0.5rem;
+    }
+    .social-links{
+        padding-bottom: 5px;
+    }
+    #footer a{
+        font-size: x-small;
+        margin: 0.33rem 0.33rem;
+        color:black;
+    }
+
+
+}
+
